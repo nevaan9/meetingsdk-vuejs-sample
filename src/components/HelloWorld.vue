@@ -27,14 +27,14 @@ export default {
   data () {
     return {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-      sdkKey: "",
-      leaveUrl: "http://localhost:8080",
+      signatureEndpoint: 'http://localhost:4000',
+      sdkKey: "FxpylDCYAFlSqOdO2PV6EgDvI4G1npR2qDSd",
       meetingNumber: "123456789",
-      passWord: "",
       role: 0,
-      signatureEndpoint: "",
+      leaveUrl: "http://localhost:4001",
+      userName: "nevaanperera",
       userEmail: "",
-      userName: "Vue.js",
+      passWord: "",
       // pass in the registrant's token if your meeting or webinar requires registration. More info here:
       // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/meetings#join-registered
       // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-registered
