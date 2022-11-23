@@ -20,19 +20,20 @@ export default {
   created () {
   },
   data () {
+    this.client = ZoomMtgEmbedded.createClient()
     return {
-      client: ZoomMtgEmbedded.createClient(),
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-      sdkKey: "",
-      meetingNumber: "123456789",
-      passWord: "",
-      role: 0,
-      signatureEndpoint: "",
+      signatureEndpoint: 'http://localhost:4000',
+      sdkKey: "FxpylDCYAFlSqOdO2PV6EgDvI4G1npR2qDSd",
+      meetingNumber: "89330268679",
+      role: 1,
+      leaveUrl: "http://localhost:4001",
+      userName: "user1234",
       userEmail: "",
-      userName: "Vue.js",
+      passWord: "",
       // pass in the registrant's token if your meeting or webinar requires registration. More info here:
-      // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/meetings#join-registered
-      // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/component-view/webinars#join-registered
+      // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/meetings#join-registered
+      // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-registered
       registrantToken: ''
     }
   },
