@@ -29,7 +29,7 @@ export default {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
       signatureEndpoint: 'http://localhost:4000',
       sdkKey: "FxpylDCYAFlSqOdO2PV6EgDvI4G1npR2qDSd",
-      meetingNumber: "123456789",
+      meetingNumber: "89938909012",
       role: 0,
       leaveUrl: "http://localhost:4001",
       userName: "nevaanperera",
